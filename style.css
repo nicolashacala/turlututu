@@ -85,8 +85,9 @@ nav a{
 
 .article_2{
 	width: 100%;
-	height: 400px;
+	height: 600px;
 	background-color: #EEEEEE;
+	text-align: center;
 }
 .article_2 h1{
 	color: #BBBBBB;
@@ -96,7 +97,8 @@ nav a{
 .icons{
 	text-align: center;
 	width: 100%;
-	height: 40%;
+	height: 20%;
+	background-color: #EEEEEE;
 }
 
 /*------article_3-----*/
@@ -125,3 +127,27 @@ nav a{
 
 /*-----footer-----*/
 
+footer{
+	margin: 0;
+	width: 100%;
+	height: 60px;
+	display: block;
+	position: relative;
+	bottom: 0;
+	background-color: #333333;
+	color: #FFFFFF;
+}
+footer ul{
+	list-style-type: none;
+	float: left;
+	display: block;
+}
+footer li{
+	padding: 5px;
+	display: inline;
+}
+footer a{
+	float: right;
+	text-decoration: none;
+	color: #FFFFFF;
+}
